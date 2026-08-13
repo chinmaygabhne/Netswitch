@@ -2,7 +2,6 @@
 title LAB Network Setup
 
 set eth=Ethernet
-
 echo Switching to LAB network...
 
 netsh interface ip set address name="%eth%" static 10.2.11.81 255.255.252.0 10.2.8.1
